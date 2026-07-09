@@ -1,43 +1,79 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 .content-space {
-    max-width: 1200px;
-    margin: auto;
+  max-width: 1200px;
+  margin: auto;
 }
 .button {
-    background-color: #1D4ED8;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 12px;
-    padding: 0px 30px;
-    font-size: 15px;
-    font-weight: bold;
+  background-color: #1d4ed8;
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  padding: 15px 30px;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 /* Navigation Bar Start */
-
 nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px 0px;
-
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0px;
 }
-.nav-links ul{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-    padding: 15px;
-    gap: 30px;
+.nav-links ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 15px;
+  gap: 30px;
 }
-.nav-links ul li a{
-    text-decoration: none;
-    color: #575757;
+.nav-links ul li a {
+  text-decoration: none;
+  color: #575757;
 }
-
 /* Navigation Bar End */
+
+/* Header Start */
+header {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5)), url(/images/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 89vh;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+header .top {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+header .top h2 {
+  font-size: 80px;
+  margin-top: 40px;
+}
+header .top p {
+  font-size: 22px;
+  text-align: center;
+  max-width: 750px;
+  padding: 20px 0px;
+}
+header .bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+}
+header .bottom button {
+  padding: 20px 40px;
+  font-size: 20px;
+}
+/* Header End */
