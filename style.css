@@ -236,8 +236,11 @@ footer {
 }
 .copyright {
   padding: 15px 0px;
-  color: white;
+  color: rgb(147, 147, 147);
+  font-size: 15px;
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  max-width: 1200px;
+  margin: auto;
 }
 /* Footer End */
