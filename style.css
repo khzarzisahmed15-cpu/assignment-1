@@ -182,3 +182,62 @@ header .bottom button {
   border-bottom: 1px solid #555555;
 }
 /* Secure Your Spot End */
+
+/* Schedule Start */
+.schedule {
+  padding: 80px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.schedule h2 {
+  font-size: 48px;
+}
+table {
+  border: 2px solid #1d4ed8;
+  border-collapse: collapse;
+  margin-top: 50px;
+  width: 35vw;
+  text-align: center;
+}
+table td,
+th {
+  border: 2px solid #1d4ed8;
+  width: 50%;
+  height: 30px;
+  font-size: 20px;
+  padding: 15px;
+}
+table th {
+  background-color: #1d4ed8;
+  color: white;
+}
+table td {
+  color: rgb(83, 83, 83);
+}
+/* Schedule End */
+
+/* Footer Start */
+footer {
+  background-color: #0d1b2a;
+}
+.footer-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px 10px 0px;
+  border-bottom: 1px solid white;
+  color: white;
+}
+.footer-contents .right a img {
+  height: 25px;
+  margin: 12px;
+}
+.copyright {
+  padding: 15px 0px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+/* Footer End */
